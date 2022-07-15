@@ -10,6 +10,8 @@ const App = () => {
         <Route path="/signup" exact component={SignupPage}/>
         <Route path="/user/:user" component={UserPage}/>
       </Switch>
+
+      <Footer />
     </Router>
   );
 }
