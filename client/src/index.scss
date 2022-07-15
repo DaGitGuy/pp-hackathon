@@ -1,5 +1,6 @@
 
 @use './styles/partials/typography';
+@use './styles/partials/colors';
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -8,4 +9,5 @@
 body {
   margin: 0;
   font-family: 'Lato';
+  background-color: colors.$light-background;
 }
