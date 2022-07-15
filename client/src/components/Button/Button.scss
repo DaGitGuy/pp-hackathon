@@ -17,13 +17,13 @@
     line-height: 1.25rem; 
     font-size: 1rem;
     font-family: 'Lato'; 
-    background-color: colors.$dark-blue;
+    background-color: colors.$dark-navy-blue;
     border-radius: 0.25rem;
     border: none;
 
     &:hover {
         cursor: pointer;
-        background-color: colors.$dark-navy-blue; 
+        background-color: colors.$blue; 
     }
 }
 
